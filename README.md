@@ -42,6 +42,7 @@ If you are developing a new feature, do not hesitate to let us know so that we c
 * [Attribute table column filter](./library/tools/attribute_table_column_filter)
 * [Dynamic form field visibility](./library/tools/dynamic_form_field_visibility)
 * [Group time tool](./library/tools/group_time_tool), Display a temporal layers' group as a GIF and generate it
+* [Time slider](./library/tools/time-slider), Visualize temporal data using a time slider
 * [Point buffer on map](./library/tools/point_buffer_on_map) Display a buffer on the map
 * [Simple filter](./library/tools/simplefilter)
 * [Smart filter](./library/tools/smartfilter)
