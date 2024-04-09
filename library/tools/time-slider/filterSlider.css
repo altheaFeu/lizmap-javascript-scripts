@@ -1,0 +1,13 @@
+.slider{
+    width:200px;
+    margin:10px;
+}
+
+input#dateend_id, input#datestart_id{
+    width:150px;
+}
+
+#filter_date.tab-pane.active{
+    height:275px;
+    min-width:300px;
+}
