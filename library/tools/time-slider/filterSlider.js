@@ -29,6 +29,7 @@ lizMap.events.on({
                 max: 1439, 
                 step:5
             },
+            // If you want an AM and PM format, you can change the clockFormat for 12 hours
             clockFormat: 24, 
             startTime: starttime, 
             endTime: endtime,
@@ -83,7 +84,7 @@ function addForm() {
     });
 
     var dateSliderDiv = $('<div>').addClass('slider').append(
-        $('<label>').attr('for', 'datestart_id').text('Départ:'), 
+        $('<label>').attr('for', 'datestart_id').text('Start date:'), 
         $('<input>').attr({
             id: 'datestart_id',
             type: 'date',
@@ -93,7 +94,7 @@ function addForm() {
             startdate = $(this).val();
         }),
         $('<br>'), 
-        $('<label>').attr('for', 'dateend_id').text('Fin:'), 
+        $('<label>').attr('for', 'dateend_id').text('End date:'), 
         $('<input>').attr({
             id: 'dateend_id',
             type: 'date',
